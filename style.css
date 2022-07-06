@@ -1,0 +1,233 @@
+/*==================================================
+    1. Common CSS
+===================================================*/
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  width: 100%;
+  height: 600px;
+  margin-bottom: 100px;
+}
+h2 {
+  font-size: 50px;
+  max-width: 850px;
+  text-align: center;
+  margin-bottom: -6px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 20px;
+}
+
+p {
+  max-width: 800px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+  color: rgb(109, 105, 105);
+  margin-bottom: 60px;
+}
+.align {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  background-color: #ff0063;
+  color: #fff;
+  padding: 20px 40px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*==================================================
+  2. Hero Section Design
+===================================================*/
+#bg-image {
+  background-image: url(images/donation6.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(24, 23, 23, 0.7);
+}
+h1 {
+  color: #fff;
+  font-size: 65px;
+  max-width: 950px;
+  text-align: center;
+  margin-bottom: -6px;
+}
+p#text-style {
+  color: #fff;
+  max-width: 800px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+/*==================================================
+  3. Donate Today Section Design
+===================================================*/
+#donate {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 850px;
+}
+.bg-donate {
+  background-color: #d6d6d6;
+  padding: 20px 50px;
+  margin: 0 10px;
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
+#active {
+  background-color: rgba(255, 0, 99, 0.2);
+  border: 2px solid #ff0063;
+}
+
+input#border {
+  border-bottom: 1px solid rgb(214, 208, 208);
+  padding: 20px 400px;
+  background-color: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/*==================================================
+  4. Our Donate Plan Section Design
+===================================================*/
+.donate-plan {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  align-items: center;
+}
+.bg-donate-plan-1 {
+  background-color: #d9f8c4;
+}
+.bg-donate-plan-2 {
+  background-color: #ffdede;
+}
+.bg-donate-plan-3 {
+  background-color: #b3e8e5;
+}
+.item {
+  padding: 20px 40px;
+  width: 300px;
+  height: 350px;
+  border-radius: 30px;
+}
+.item img {
+  width: 70px;
+  height: 70px;
+}
+.item p {
+  text-align: left;
+}
+
+/*==================================================
+  5. Get My Updates Section Design
+===================================================*/
+
+.input-align {
+  display: flex;
+  flex-direction: row;
+}
+.input-design {
+  padding: 15px 40px;
+  border: none;
+}
+.bg-input {
+  background-color: #e6e6e3;
+  border-radius: 10px 0 0 10px;
+  font-size: 16px;
+}
+.bg-subscribe {
+  background-color: #ff0063;
+  border-radius: 0 10px 10px 0;
+  color: #fff;
+  font-size: 16px;
+}
+.bg-form-area {
+  background-color: rgba(255, 219, 226, 0.6);
+  width: 850px;
+  height: 250px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+
+/*==================================================
+  6. Our Recent Work Section Design
+===================================================*/
+
+.bm-img img {
+  width: 300px;
+  height: 250px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  align-items: center;
+  border-radius: 20px;
+}
+.bm-img h4,
+p {
+  text-align: center;
+  overflow: hidden;
+}
+.shadow {
+  box-shadow: 2px 0 20px #eeecec;
+  border-radius: 20px;
+  width: 350px;
+  height: 300px;
+  padding: 30px 20px 150px 20px;
+  margin: 0 -5px;
+}
+#container {
+  margin-bottom: 200px;
+}
+
+/*==================================================
+  7. Footer Section Design
+===================================================*/
+
+.bg-footer {
+  background-color: #000;
+}
+footer h3 {
+  color: #ff0063;
+  margin-bottom: -6px;
+  font-family: "Lobster", cursive;
+  font-size: 40px;
+}
+
